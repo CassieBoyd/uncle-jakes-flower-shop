@@ -1,8 +1,8 @@
-from valentines_day import ValentinesDay
 
 class Rose:
-    def __init__(self,name):
+    def __init__(self, name, color):
         self.name = name
+        self.color = ["red", "pink", "blue"]
 
 # if __name__ == "__main__":
 #     for_beth = ValentinesDay()
