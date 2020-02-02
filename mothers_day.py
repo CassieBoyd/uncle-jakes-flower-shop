@@ -7,7 +7,7 @@ class MothersDay(Arrangement):
         self.__flowers = []
 
     def enhance(self, flower):
-        if 
+        if organic = True and refridgerated = False and :
             self.__flowers.append(flower)
 
 
