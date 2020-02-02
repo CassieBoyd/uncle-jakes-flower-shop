@@ -7,8 +7,10 @@ class MothersDay(Arrangement):
         self.__flowers = []
 
     def enhance(self, flower):
-        if organic = True and refridgerated = False and :
+        if flower.organic and flower.non_refridgerated and flower.stem_length_4:
             self.__flowers.append(flower)
+        else: 
+            print(f'{flower.name} cannot be added to this arrangement.')
 
 
     # Override the `enhance` method to ensure only
