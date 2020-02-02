@@ -1,3 +1,3 @@
 class IOrganic:
     def __init__(self):
-        self.organic = bool
+        self.organic = True

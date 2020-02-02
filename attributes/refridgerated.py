@@ -1,3 +1,3 @@
 class IRefridgerated:
     def __init__(self):
-        self.refridgerated = bool
+        self.refridgerated = True
