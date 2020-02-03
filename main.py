@@ -21,5 +21,12 @@ for_mom.enhance(daisy)
 for_mom.enhance(poppy)
 # for_mom.enhance(blue_rose)
 # for_mom.enhance(alstroemeria)
-
 for_mom.listFlowers()
+
+for_wife = ValentinesDay()
+for_wife.enhance(red_rose)
+for_wife.enhance(pink_rose)
+for_wife.enhance(blue_rose)
+for_wife.enhance(lily)
+for_wife.enhance(alstroemeria)
+for_wife.listFlowers()

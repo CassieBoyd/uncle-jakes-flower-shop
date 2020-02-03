@@ -16,7 +16,7 @@ class MothersDay(Arrangement):
             print(f'{flower.name} cannot be added to this arrangement.')
 
     def listFlowers(self):
-        print("Mother's Day Arrangement Fowers:")
+        print("Mother's Day Arrangement Flowers:")
         for flower in self.__flowers:
             print(flower.name)
 
