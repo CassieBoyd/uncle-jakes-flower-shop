@@ -15,7 +15,7 @@ class MothersDay(Arrangement):
 
     def listFlowers(self):
         for flower in self.__flowers:
-            return(flower)
+            return(flower.name)
 
 
     # Override the `enhance` method to ensure only

@@ -1,11 +1,13 @@
 from mothers_day import MothersDay
 from valentines_day import ValentinesDay
-from flowers import Alstroemeria, BabysBreath, Daisy, Lily, Poppy, Rose
+from flowers import Alstroemeria, BabysBreath, Daisy, Lily, Poppy, RedRose, BlueRose, PinkRose
 
 # Valentine's Day flowers
 alstroemeria = Alstroemeria()
 lily = Lily()
-red_rose = Rose("Red")
+red_rose = RedRose()
+blue_rose = BlueRose()
+pink_rose = PinkRose()
 
 # Mother's Day flowers
 babysbreath = BabysBreath()
@@ -16,7 +18,8 @@ poppy = Poppy()
 for_mom = MothersDay()
 for_mom.enhance(babysbreath)
 for_mom.enhance(daisy)
+for_mom.enhance(blue_rose)
 
 # for_mom.enhance(alstroemeria)
 
-print(for_mom.listFlowers)
+print(for_mom.listFlowers())
